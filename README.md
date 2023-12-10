@@ -1,41 +1,14 @@
 # Predicting Loan Default Using Various Machine Learning Algorithms
 
-[Deskripsi Singkat Proyek]
+Loan default is a critical issue for financial service companies. Besides impacting the company's working capital, loan defaults also affect the company's portfolio. Therefore, it is essential to enhance the detection system to prevent losses due to loan default cases. By predicting the loan default, it can prevent potential losses in financial service companies.
 
-Proyek ini bertujuan untuk mengembangkan model prediksi yang dapat memprediksi kemungkinan gagal bayar pada pinjaman menggunakan berbagai algoritma Machine Learning. Prediksi ini dapat membantu dalam mengidentifikasi risiko dan mengoptimalkan proses persetujuan pinjaman.
+The data in this project is retrived from Kaggle.com. The are some model used in this project, K-Nearest Neighbor, Logistic Regression, Decision Tree, and Random Forest then were tuned by using Grid Search.
 
-## Fitur Utama
+# Result
+## Conclusion:
+The best machine learning model according to this project is Random Forest with precission : 96% and Recall : 71%. Loan to Income Ratio is the dominant factor for Loan Default. In addition, Interest Rate, Occupier, and Person Income are significant contributors to loan default.
 
-- Penggunaan berbagai algoritma Machine Learning seperti [sebutkan beberapa algoritma yang digunakan] untuk meningkatkan akurasi prediksi.
-- Analisis mendalam terhadap dataset pinjaman, termasuk eksplorasi data dan pemrosesan fitur.
-- Visualisasi hasil prediksi dan evaluasi kinerja model untuk memudahkan interpretasi.
-
-## Cara Menjalankan Proyek
-
-1. [Langkah-langkah instalasi dan konfigurasi]
-2. [Cara melatih model dan melakukan prediksi]
-3. [Contoh penggunaan atau skenario umum]
-
-## Dataset
-
-Proyek ini menggunakan dataset [sebutkan sumber dataset] yang berisi [jelaskan beberapa karakteristik dataset]. Dataset dapat diunduh dari [sumber dataset].
-
-## Dependensi
-
-Pastikan untuk menginstal dependensi yang diperlukan sebelum menjalankan proyek. Beberapa dependensi utama termasuk:
-- [Sebutkan dependensi utama dan versinya]
-
-## Kontribusi
-
-Jika Anda ingin berkontribusi pada proyek ini, silakan buka [CONTRIBUTING.md] untuk panduan dan aturan kontribusi.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [jenis lisensi]. Lihat berkas [LICENSE.md] untuk informasi lebih lanjut.
-
-## Kontak
-
-Untuk pertanyaan atau komentar, silakan hubungi [nama dan alamat email].
-
-Terima kasih telah berkontribusi pada proyek ini!
-
+# Recommendation for action:
+•	Adjusting loan principal limits, LTI < 40%
+•	Adjusting rate of interest
+•	Adding additional approval processes
