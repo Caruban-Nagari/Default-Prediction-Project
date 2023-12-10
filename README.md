@@ -12,3 +12,5 @@ The best machine learning model according to this project is Random Forest with 
 -	Adjusting loan principal limits, LTI < 40%
 -	Adjusting rate of interest
 -	Adding additional approval processes
+-	Verifying financial stability
+- Requesting additional evidence of asset ownership
