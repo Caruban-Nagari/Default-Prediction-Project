@@ -8,7 +8,7 @@ The data in this project is retrived from Kaggle.com. The are some model used in
 ### Conclusion:
 The best machine learning model according to this project is Random Forest with precission : 96% and Recall : 71%. Loan to Income Ratio is the dominant factor for Loan Default. In addition, Interest Rate, Occupier, and Person Income are significant contributors to loan default.
 
-## Recommendation for action:
+### Recommendation for action:
 -	Adjusting loan principal limits, LTI < 40%
 -	Adjusting rate of interest
 -	Adding additional approval processes
